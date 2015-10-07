@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+    </dependencies>
+    <scenes>
+        <!--Air Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="AirController" customModule="aircontrollerapp_WatchKit_Extension">
+                    <items>
+                        <button width="1" alignment="left" title="エアコンON" id="ElY-AW-ZKq">
+                            <connections>
+                                <action selector="OnAction" destination="AgC-eL-Hgc" id="msA-eT-76h"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="エアコンOFF" id="27n-cS-BXP">
+                            <connections>
+                                <action selector="OffAction" destination="AgC-eL-Hgc" id="5WQ-4a-Pj0"/>
+                            </connections>
+                        </button>
+                        <label width="124" alignment="center" text="ステータス" textAlignment="center" id="tJf-Qp-mw1"/>
+                    </items>
+                    <connections>
+                        <outlet property="OnAction" destination="ElY-AW-ZKq" id="PEz-fh-E00"/>
+                        <outlet property="StatusLabel" destination="tJf-Qp-mw1" id="gFd-gJ-ir4"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="aircontrollerapp_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

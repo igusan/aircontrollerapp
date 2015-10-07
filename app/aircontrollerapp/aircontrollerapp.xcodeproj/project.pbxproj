@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB23539C1BBFB8B200053077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23539B1BBFB8B200053077 /* AppDelegate.swift */; };
+		CB23539E1BBFB8B200053077 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23539D1BBFB8B200053077 /* ViewController.swift */; };
+		CB2353A11BBFB8B200053077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB23539F1BBFB8B200053077 /* Main.storyboard */; };
+		CB2353A31BBFB8B200053077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2353A21BBFB8B200053077 /* Assets.xcassets */; };
+		CB2353A61BBFB8B200053077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2353A41BBFB8B200053077 /* LaunchScreen.storyboard */; };
+		CB2353B11BBFB8B200053077 /* aircontrollerappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2353B01BBFB8B200053077 /* aircontrollerappTests.swift */; };
+		CB2353BC1BBFB8B200053077 /* aircontrollerappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2353BB1BBFB8B200053077 /* aircontrollerappUITests.swift */; };
+		CB2353C11BBFB8B200053077 /* aircontrollerapp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CB2353C01BBFB8B200053077 /* aircontrollerapp WatchKit App.app */; };
+		CB2353C71BBFB8B200053077 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2353C51BBFB8B200053077 /* Interface.storyboard */; };
+		CB2353C91BBFB8B300053077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2353C81BBFB8B300053077 /* Assets.xcassets */; };
+		CB2353D01BBFB8B300053077 /* aircontrollerapp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CB2353CF1BBFB8B300053077 /* aircontrollerapp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CB2353D71BBFB8B300053077 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2353D61BBFB8B300053077 /* InterfaceController.swift */; };
+		CB2353D91BBFB8B300053077 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2353D81BBFB8B300053077 /* ExtensionDelegate.swift */; };
+		CB2353DB1BBFB8B300053077 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2353DA1BBFB8B300053077 /* NotificationController.swift */; };
+		CB2353DD1BBFB8B300053077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2353DC1BBFB8B300053077 /* Assets.xcassets */; };
+		CB2353F31BBFBAF600053077 /* AirController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2353F21BBFBAF600053077 /* AirController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB2353AD1BBFB8B200053077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB2353901BBFB8B100053077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB2353971BBFB8B200053077;
+			remoteInfo = aircontrollerapp;
+		};
+		CB2353B81BBFB8B200053077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB2353901BBFB8B100053077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB2353971BBFB8B200053077;
+			remoteInfo = aircontrollerapp;
+		};
+		CB2353C21BBFB8B200053077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB2353901BBFB8B100053077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB2353BF1BBFB8B200053077;
+			remoteInfo = "aircontrollerapp WatchKit App";
+		};
+		CB2353D11BBFB8B300053077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB2353901BBFB8B100053077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB2353CE1BBFB8B300053077;
+			remoteInfo = "aircontrollerapp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB2353E41BBFB8B300053077 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CB2353D01BBFB8B300053077 /* aircontrollerapp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2353E81BBFB8B300053077 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CB2353C11BBFB8B200053077 /* aircontrollerapp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CB2353981BBFB8B200053077 /* aircontrollerapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aircontrollerapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB23539B1BBFB8B200053077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB23539D1BBFB8B200053077 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB2353A01BBFB8B200053077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB2353A21BBFB8B200053077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB2353A51BBFB8B200053077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB2353A71BBFB8B200053077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2353AC1BBFB8B200053077 /* aircontrollerappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aircontrollerappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2353B01BBFB8B200053077 /* aircontrollerappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aircontrollerappTests.swift; sourceTree = "<group>"; };
+		CB2353B21BBFB8B200053077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2353B71BBFB8B200053077 /* aircontrollerappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aircontrollerappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2353BB1BBFB8B200053077 /* aircontrollerappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aircontrollerappUITests.swift; sourceTree = "<group>"; };
+		CB2353BD1BBFB8B200053077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2353C01BBFB8B200053077 /* aircontrollerapp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aircontrollerapp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2353C61BBFB8B200053077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CB2353C81BBFB8B300053077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB2353CA1BBFB8B300053077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2353CF1BBFB8B300053077 /* aircontrollerapp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "aircontrollerapp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2353D51BBFB8B300053077 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CB2353D61BBFB8B300053077 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CB2353D81BBFB8B300053077 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CB2353DA1BBFB8B300053077 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		CB2353DC1BBFB8B300053077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB2353DE1BBFB8B300053077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2353F21BBFBAF600053077 /* AirController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB2353951BBFB8B200053077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2353A91BBFB8B200053077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2353B41BBFB8B200053077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2353CC1BBFB8B300053077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB23538F1BBFB8B100053077 = {
+			isa = PBXGroup;
+			children = (
+				CB23539A1BBFB8B200053077 /* aircontrollerapp */,
+				CB2353AF1BBFB8B200053077 /* aircontrollerappTests */,
+				CB2353BA1BBFB8B200053077 /* aircontrollerappUITests */,
+				CB2353C41BBFB8B200053077 /* aircontrollerapp WatchKit App */,
+				CB2353D31BBFB8B300053077 /* aircontrollerapp WatchKit Extension */,
+				CB2353991BBFB8B200053077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB2353991BBFB8B200053077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB2353981BBFB8B200053077 /* aircontrollerapp.app */,
+				CB2353AC1BBFB8B200053077 /* aircontrollerappTests.xctest */,
+				CB2353B71BBFB8B200053077 /* aircontrollerappUITests.xctest */,
+				CB2353C01BBFB8B200053077 /* aircontrollerapp WatchKit App.app */,
+				CB2353CF1BBFB8B300053077 /* aircontrollerapp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB23539A1BBFB8B200053077 /* aircontrollerapp */ = {
+			isa = PBXGroup;
+			children = (
+				CB23539B1BBFB8B200053077 /* AppDelegate.swift */,
+				CB23539D1BBFB8B200053077 /* ViewController.swift */,
+				CB23539F1BBFB8B200053077 /* Main.storyboard */,
+				CB2353A21BBFB8B200053077 /* Assets.xcassets */,
+				CB2353A41BBFB8B200053077 /* LaunchScreen.storyboard */,
+				CB2353A71BBFB8B200053077 /* Info.plist */,
+			);
+			path = aircontrollerapp;
+			sourceTree = "<group>";
+		};
+		CB2353AF1BBFB8B200053077 /* aircontrollerappTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB2353B01BBFB8B200053077 /* aircontrollerappTests.swift */,
+				CB2353B21BBFB8B200053077 /* Info.plist */,
+			);
+			path = aircontrollerappTests;
+			sourceTree = "<group>";
+		};
+		CB2353BA1BBFB8B200053077 /* aircontrollerappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB2353BB1BBFB8B200053077 /* aircontrollerappUITests.swift */,
+				CB2353BD1BBFB8B200053077 /* Info.plist */,
+			);
+			path = aircontrollerappUITests;
+			sourceTree = "<group>";
+		};
+		CB2353C41BBFB8B200053077 /* aircontrollerapp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CB2353C51BBFB8B200053077 /* Interface.storyboard */,
+				CB2353C81BBFB8B300053077 /* Assets.xcassets */,
+				CB2353CA1BBFB8B300053077 /* Info.plist */,
+			);
+			path = "aircontrollerapp WatchKit App";
+			sourceTree = "<group>";
+		};
+		CB2353D31BBFB8B300053077 /* aircontrollerapp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CB2353D61BBFB8B300053077 /* InterfaceController.swift */,
+				CB2353D81BBFB8B300053077 /* ExtensionDelegate.swift */,
+				CB2353DA1BBFB8B300053077 /* NotificationController.swift */,
+				CB2353DC1BBFB8B300053077 /* Assets.xcassets */,
+				CB2353DE1BBFB8B300053077 /* Info.plist */,
+				CB2353D41BBFB8B300053077 /* Supporting Files */,
+				CB2353F21BBFBAF600053077 /* AirController.swift */,
+			);
+			path = "aircontrollerapp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CB2353D41BBFB8B300053077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB2353D51BBFB8B300053077 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB2353971BBFB8B200053077 /* aircontrollerapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2353E91BBFB8B300053077 /* Build configuration list for PBXNativeTarget "aircontrollerapp" */;
+			buildPhases = (
+				CB2353941BBFB8B200053077 /* Sources */,
+				CB2353951BBFB8B200053077 /* Frameworks */,
+				CB2353961BBFB8B200053077 /* Resources */,
+				CB2353E81BBFB8B300053077 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB2353C31BBFB8B200053077 /* PBXTargetDependency */,
+			);
+			name = aircontrollerapp;
+			productName = aircontrollerapp;
+			productReference = CB2353981BBFB8B200053077 /* aircontrollerapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB2353AB1BBFB8B200053077 /* aircontrollerappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2353EC1BBFB8B300053077 /* Build configuration list for PBXNativeTarget "aircontrollerappTests" */;
+			buildPhases = (
+				CB2353A81BBFB8B200053077 /* Sources */,
+				CB2353A91BBFB8B200053077 /* Frameworks */,
+				CB2353AA1BBFB8B200053077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB2353AE1BBFB8B200053077 /* PBXTargetDependency */,
+			);
+			name = aircontrollerappTests;
+			productName = aircontrollerappTests;
+			productReference = CB2353AC1BBFB8B200053077 /* aircontrollerappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB2353B61BBFB8B200053077 /* aircontrollerappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2353EF1BBFB8B300053077 /* Build configuration list for PBXNativeTarget "aircontrollerappUITests" */;
+			buildPhases = (
+				CB2353B31BBFB8B200053077 /* Sources */,
+				CB2353B41BBFB8B200053077 /* Frameworks */,
+				CB2353B51BBFB8B200053077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB2353B91BBFB8B200053077 /* PBXTargetDependency */,
+			);
+			name = aircontrollerappUITests;
+			productName = aircontrollerappUITests;
+			productReference = CB2353B71BBFB8B200053077 /* aircontrollerappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CB2353BF1BBFB8B200053077 /* aircontrollerapp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2353E51BBFB8B300053077 /* Build configuration list for PBXNativeTarget "aircontrollerapp WatchKit App" */;
+			buildPhases = (
+				CB2353BE1BBFB8B200053077 /* Resources */,
+				CB2353E41BBFB8B300053077 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB2353D21BBFB8B300053077 /* PBXTargetDependency */,
+			);
+			name = "aircontrollerapp WatchKit App";
+			productName = "aircontrollerapp WatchKit App";
+			productReference = CB2353C01BBFB8B200053077 /* aircontrollerapp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CB2353CE1BBFB8B300053077 /* aircontrollerapp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2353E11BBFB8B300053077 /* Build configuration list for PBXNativeTarget "aircontrollerapp WatchKit Extension" */;
+			buildPhases = (
+				CB2353CB1BBFB8B300053077 /* Sources */,
+				CB2353CC1BBFB8B300053077 /* Frameworks */,
+				CB2353CD1BBFB8B300053077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aircontrollerapp WatchKit Extension";
+			productName = "aircontrollerapp WatchKit Extension";
+			productReference = CB2353CF1BBFB8B300053077 /* aircontrollerapp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB2353901BBFB8B100053077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = shibata;
+				TargetAttributes = {
+					CB2353971BBFB8B200053077 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					CB2353AB1BBFB8B200053077 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CB2353971BBFB8B200053077;
+					};
+					CB2353B61BBFB8B200053077 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CB2353971BBFB8B200053077;
+					};
+					CB2353BF1BBFB8B200053077 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					CB2353CE1BBFB8B300053077 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CB2353931BBFB8B100053077 /* Build configuration list for PBXProject "aircontrollerapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB23538F1BBFB8B100053077;
+			productRefGroup = CB2353991BBFB8B200053077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB2353971BBFB8B200053077 /* aircontrollerapp */,
+				CB2353AB1BBFB8B200053077 /* aircontrollerappTests */,
+				CB2353B61BBFB8B200053077 /* aircontrollerappUITests */,
+				CB2353BF1BBFB8B200053077 /* aircontrollerapp WatchKit App */,
+				CB2353CE1BBFB8B300053077 /* aircontrollerapp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB2353961BBFB8B200053077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2353A61BBFB8B200053077 /* LaunchScreen.storyboard in Resources */,
+				CB2353A31BBFB8B200053077 /* Assets.xcassets in Resources */,
+				CB2353A11BBFB8B200053077 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2353AA1BBFB8B200053077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2353B51BBFB8B200053077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2353BE1BBFB8B200053077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2353C91BBFB8B300053077 /* Assets.xcassets in Resources */,
+				CB2353C71BBFB8B200053077 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2353CD1BBFB8B300053077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2353DD1BBFB8B300053077 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB2353941BBFB8B200053077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB23539E1BBFB8B200053077 /* ViewController.swift in Sources */,
+				CB23539C1BBFB8B200053077 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2353A81BBFB8B200053077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2353B11BBFB8B200053077 /* aircontrollerappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2353B31BBFB8B200053077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2353BC1BBFB8B200053077 /* aircontrollerappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2353CB1BBFB8B300053077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2353DB1BBFB8B300053077 /* NotificationController.swift in Sources */,
+				CB2353D91BBFB8B300053077 /* ExtensionDelegate.swift in Sources */,
+				CB2353F31BBFBAF600053077 /* AirController.swift in Sources */,
+				CB2353D71BBFB8B300053077 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB2353AE1BBFB8B200053077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB2353971BBFB8B200053077 /* aircontrollerapp */;
+			targetProxy = CB2353AD1BBFB8B200053077 /* PBXContainerItemProxy */;
+		};
+		CB2353B91BBFB8B200053077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB2353971BBFB8B200053077 /* aircontrollerapp */;
+			targetProxy = CB2353B81BBFB8B200053077 /* PBXContainerItemProxy */;
+		};
+		CB2353C31BBFB8B200053077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB2353BF1BBFB8B200053077 /* aircontrollerapp WatchKit App */;
+			targetProxy = CB2353C21BBFB8B200053077 /* PBXContainerItemProxy */;
+		};
+		CB2353D21BBFB8B300053077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB2353CE1BBFB8B300053077 /* aircontrollerapp WatchKit Extension */;
+			targetProxy = CB2353D11BBFB8B300053077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB23539F1BBFB8B200053077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2353A01BBFB8B200053077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB2353A41BBFB8B200053077 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2353A51BBFB8B200053077 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CB2353C51BBFB8B200053077 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2353C61BBFB8B200053077 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB2353DF1BBFB8B300053077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB2353E01BBFB8B300053077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB2353E21BBFB8B300053077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "aircontrollerapp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.shibata.aircontroller.watchkitapp.aircontrollerapp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		CB2353E31BBFB8B300053077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "aircontrollerapp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.shibata.aircontroller.watchkitapp.aircontrollerapp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		CB2353E61BBFB8B300053077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = aircontrollerapp_WatchKit_Extension;
+				INFOPLIST_FILE = "aircontrollerapp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = co.shibata.aircontroller.watchkitapp.aircontrollerapp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		CB2353E71BBFB8B300053077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = aircontrollerapp_WatchKit_Extension;
+				INFOPLIST_FILE = "aircontrollerapp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = co.shibata.aircontroller.watchkitapp.aircontrollerapp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		CB2353EA1BBFB8B300053077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = aircontrollerapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.shibata.aircontroller.watchkitapp.aircontrollerapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB2353EB1BBFB8B300053077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = aircontrollerapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.shibata.aircontroller.watchkitapp.aircontrollerapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB2353ED1BBFB8B300053077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = aircontrollerappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.shibata.aircontroller.watchkitapp.aircontrollerappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aircontrollerapp.app/aircontrollerapp";
+			};
+			name = Debug;
+		};
+		CB2353EE1BBFB8B300053077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = aircontrollerappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.shibata.aircontroller.watchkitapp.aircontrollerappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aircontrollerapp.app/aircontrollerapp";
+			};
+			name = Release;
+		};
+		CB2353F01BBFB8B300053077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = aircontrollerappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.shibata.aircontroller.watchkitapp.aircontrollerappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = aircontrollerapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CB2353F11BBFB8B300053077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = aircontrollerappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.shibata.aircontroller.watchkitapp.aircontrollerappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = aircontrollerapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB2353931BBFB8B100053077 /* Build configuration list for PBXProject "aircontrollerapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2353DF1BBFB8B300053077 /* Debug */,
+				CB2353E01BBFB8B300053077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB2353E11BBFB8B300053077 /* Build configuration list for PBXNativeTarget "aircontrollerapp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2353E21BBFB8B300053077 /* Debug */,
+				CB2353E31BBFB8B300053077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB2353E51BBFB8B300053077 /* Build configuration list for PBXNativeTarget "aircontrollerapp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2353E61BBFB8B300053077 /* Debug */,
+				CB2353E71BBFB8B300053077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB2353E91BBFB8B300053077 /* Build configuration list for PBXNativeTarget "aircontrollerapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2353EA1BBFB8B300053077 /* Debug */,
+				CB2353EB1BBFB8B300053077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB2353EC1BBFB8B300053077 /* Build configuration list for PBXNativeTarget "aircontrollerappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2353ED1BBFB8B300053077 /* Debug */,
+				CB2353EE1BBFB8B300053077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB2353EF1BBFB8B300053077 /* Build configuration list for PBXNativeTarget "aircontrollerappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2353F01BBFB8B300053077 /* Debug */,
+				CB2353F11BBFB8B300053077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB2353901BBFB8B100053077 /* Project object */;
+}

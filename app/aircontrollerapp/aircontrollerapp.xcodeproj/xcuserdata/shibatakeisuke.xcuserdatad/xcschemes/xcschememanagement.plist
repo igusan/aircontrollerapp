@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Notification - aircontrollerapp WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>aircontrollerapp WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>aircontrollerapp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CB2353971BBFB8B200053077</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB2353AB1BBFB8B200053077</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB2353B61BBFB8B200053077</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB2353BF1BBFB8B200053077</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
